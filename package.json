@@ -1,0 +1,24 @@
+{
+  "name": "playwright-repl",
+  "version": "0.0.1",
+  "description": "Playwright REPL tmux service to be used by AGENTS",
+  "keywords": [
+    "playwright",
+    "browser",
+    "automation"
+  ],
+  "license": "UNLICENSED",
+  "author": "raul_parada@live.com",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "pwi": "./index.js",
+    "pw": "./pw"
+  },
+  "dependencies": {
+    "playwright": "^1.55.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.0"
+  }
+}
